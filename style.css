@@ -1,0 +1,36 @@
+#pico {
+  text-align: center;
+}
+.ref {
+  color: red;
+  font-weight: bold; 
+}
+.destaque {
+  background-color: yellow;
+}
+/*div {
+  background-color: lightgray;
+  display: inline-block;
+  border: 1px solid black;
+ /* text-align: center;  
+  width: 200px;
+  height: 200px;
+} */
+#d1{
+ /* background-color: green;*/
+}
+#d2{
+ /* background-color: red;*/
+}
+div:hover{
+  background-color: yellow;
+}
+div > p {
+  display: none;
+}
+div:hover > p {
+  display: block;
+}
+.rt {
+  color: green;
+}
